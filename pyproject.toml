@@ -1,0 +1,10 @@
+[project]
+name = "Workshop_OpenSD2026"
+version = "0.1.0"
+description = "Repository containing the materials for the OpenSD2026 Workshop in Belgium"
+authors = [{"name": "yacine bel-hadj", "email": "abdulelah"}]
+
+dependencies = [
+    "numpy>=2.5.2",
+]
+
