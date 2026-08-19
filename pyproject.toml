@@ -2,9 +2,21 @@
 name = "Workshop_OpenSD2026"
 version = "0.1.0"
 description = "Repository containing the materials for the OpenSD2026 Workshop in Belgium"
-authors = [{"name": "yacine bel-hadj", "email": "abdulelah"}]
+readme = "README.md"
+requires-python = ">=3.12,<3.15"
+authors = [
+    { name = "Yacine Bel-Hadj", email = "yacine.bel-hadj@vub.be" },
+    { name = "Wout Weijtjens", email = "wout.weijtjens@vub.be" },
+    { name = "Ahmed Mujtaba", email = "ahmed.mujtaba@vub.be" },
+    { name = "Abdulelah Al-Ghuwaidi", email = "Abdulelah.Al-Ghuwaidi@vub.be" },
+]
+license-files = ["LICENSE"]
 
 dependencies = [
-    "numpy>=2.5.2",
+    "ipykernel",
+    "jupyterlab",
+    "numpy>=2,<2.5",
+    "py-fatigue>=2",
+    "pyoma-2",
+    "scipy",
 ]
-
