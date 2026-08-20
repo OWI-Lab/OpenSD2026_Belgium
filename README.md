@@ -29,6 +29,14 @@ uv sync
 uv run jupyter lab
 ```
 
+## Testing with pytest
+
+Tests live in `tests/` and follow pytest's `test_*.py` naming convention. Run them with:
+
+```bash
+uv run pytest
+```
+
 ## License
 
 Copyright © 2026 OpenSD2026 contributors. All rights reserved. The materials in this repository are provided for educational use only and may not be copied, redistributed, or modified without prior permission. See [LICENSE](LICENSE).
