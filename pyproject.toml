@@ -13,16 +13,20 @@ authors = [
 license-files = ["LICENSE"]
 
 dependencies = [
+    "h5py>=3.16.0",
     "ipykernel",
     "jupyterlab",
     "numpy>=2,<2.5",
+    "pandas>=3.0.5",
     "py-fatigue>=2",
     "pyoma-2",
+    "scikit-learn>=1.9.0",
     "scipy",
+    "zenodo-get>=3.1.0",
 ]
 
 [dependency-groups]
 dev = ["pytest"]
 
 [tool.pytest.ini_options]
-pythonpath = ["src"]
+pythonpath = ["notebooks/01_introduction/011_test_driven_dev"]
