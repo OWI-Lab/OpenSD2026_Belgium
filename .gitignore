@@ -216,4 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-*/04_AI_for_SHM/*
+*metrics.csv
+hparams.yaml
+Aventa_AV7_IET_OST_SCADA.csv
+!Aventa_AV7_IET_OST_SCADA_10min.parquet

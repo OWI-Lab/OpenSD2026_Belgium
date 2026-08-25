@@ -16,14 +16,28 @@ dependencies = [
     "h5py>=3.16.0",
     "ipykernel",
     "jupyterlab",
+    "lightning>=2.6.5",
     "numpy>=2,<2.5",
     "pandas>=3.0.5",
+    "polars>=1.44.0",
     "py-fatigue>=2",
     "pyoma-2",
+    "requests>=2.34.2",
     "scikit-learn>=1.9.0",
     "scipy",
+    "torch",
     "zenodo-get>=3.1.0",
+    "pytest",
+    "pyarrow<25",
 ]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
 
 [dependency-groups]
 dev = ["pytest"]
