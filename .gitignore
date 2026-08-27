@@ -220,3 +220,4 @@ __marimo__/
 hparams.yaml
 Aventa_AV7_IET_OST_SCADA.csv
 !Aventa_AV7_IET_OST_SCADA_10min.parquet
+*.ckpt
