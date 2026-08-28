@@ -43,4 +43,8 @@ torch = { index = "pytorch-cpu" }
 dev = ["pytest"]
 
 [tool.pytest.ini_options]
-pythonpath = ["notebooks/01_introduction/011_test_driven_dev"]
+pythonpath = ["notebooks/WS1_An_intro_to_python/012_test_driven_dev",
+]
+testpaths = [
+    "notebooks/WS1_An_intro_to_python/012_test_driven_dev/tests",
+]
