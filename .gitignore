@@ -220,4 +220,6 @@ __marimo__/
 hparams.yaml
 Aventa_AV7_IET_OST_SCADA.csv
 !Aventa_AV7_IET_OST_SCADA_10min.parquet
+!/notebooks/WS4_AI_for_SHM/data/
+!/notebooks/WS4_AI_for_SHM/logs/welch_denoising_clean_norm_v1
 *.ckpt

@@ -29,6 +29,7 @@ dependencies = [
     "zenodo-get>=3.1.0",
     "pytest",
     "pyarrow<25",
+    "dynaresp>=0.5.1",
 ]
 
 [[tool.uv.index]]
