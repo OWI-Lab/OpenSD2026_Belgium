@@ -1,8 +1,8 @@
 [![OpenSD2026 - Belgium](assets/OpenSD_bannerlogo.jpg)](https://www.vub.be/en/event/opensd-summer-school-belgium)
 
-# Workshop_OpenSD2026
+# OpenSD2026 Belgium Workshop Materials
 
-Repository containing the materials for the OpenSD2026 Workshop in Belgium, providing a hands-on introduction to Python programming for structural dynamics.
+This repository contains the workshop materials for OpenSD2026 Belgium, including hands-on notebooks and exercises on Python, signal processing, fatigue, and AI for structural health monitoring.
 
 Workshop page: https://www.vub.be/en/event/opensd-summer-school-belgium
 
