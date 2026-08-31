@@ -1,0 +1,4 @@
+latent_size: 16
+learning_rate: 0.0003
+n_sensors: 2
+sample_rate: 1000.0

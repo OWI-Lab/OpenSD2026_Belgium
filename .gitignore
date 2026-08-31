@@ -217,9 +217,13 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 *metrics.csv
+*.ckpt
 hparams.yaml
 Aventa_AV7_IET_OST_SCADA.csv
 !Aventa_AV7_IET_OST_SCADA_10min.parquet
 !/notebooks/WS4_AI_for_SHM/data/
-!/notebooks/WS4_AI_for_SHM/logs/welch_denoising_clean_norm_v1
-*.ckpt
+!/notebooks/WS4_AI_for_SHM/logs/logs/bridge_denoising_spectral_autoencoder/*
+
+!/notebooks/WS4_AI_for_SHM/logs/bridge_denoising_spectral_autoencoder/welch_denoising_clean_norm_v1/checkpoints/best.ckpt
+!/notebooks/WS4_AI_for_SHM/logs/bridge_denoising_spectral_autoencoder/welch_denoising_clean_norm_v1/metrics.csv
+!/notebooks/WS4_AI_for_SHM/logs/bridge_denoising_spectral_autoencoder/welch_denoising_clean_norm_v1/hparams.yaml
