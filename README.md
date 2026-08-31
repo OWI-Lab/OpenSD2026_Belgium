@@ -34,7 +34,7 @@ uv run jupyter lab
 
 ## Testing with pytest
 
-Tests are located in `notebooks/WS1_An_intro_to_python/012_test_driven_dev/tests`. Run them with:
+Tests are located in `notebooks/WS1_An_intro_to_python/12_test_driven_dev/tests`. Run them with:
 
 ```bash
 uv run pytest
