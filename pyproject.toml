@@ -30,6 +30,7 @@ dependencies = [
     "pytest",
     "pyarrow<25",
     "dynaresp>=0.5.1",
+    "py-opensdbrussels2026>=0.1.0",
 ]
 
 [[tool.uv.index]]
