@@ -1652,11 +1652,11 @@ wheels = [
 
 [[package]]
 name = "py-opensdbrussels2026"
-version = "0.1.0"
+version = "0.1.1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/a7/46/3a75a7e0649d7cd9c60c091e581e1777c6a2cf56025f3cd3fbf83c225113/py_opensdbrussels2026-0.1.0.tar.gz", hash = "sha256:26309ac67ad9d80760f837c2e3919fcc878d2437ddba9d3fe8c48002b9f1cbb6", size = 3063, upload-time = "2026-08-27T15:17:44.345Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c2/98/4fa4811b389bed5716a3ab6256726ba42af212572f1b1a5f2b6e6c1da3cc/py_opensdbrussels2026-0.1.1.tar.gz", hash = "sha256:6ebd6e4e573cac7579feec06d5309c217d08f68a63684b16eecd7eeb93d810fb", size = 3322, upload-time = "2026-09-07T06:10:48.615Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/fe/f0/05ceb81a5dbca78f24765eed2998eb9d5f6f18c149a6375eceea6ff4dbd8/py_opensdbrussels2026-0.1.0-py3-none-any.whl", hash = "sha256:b97932ff3f6efbb5e0031d0f333cad90d362b68ef13bdc16937ebd47b040ac7c", size = 3426, upload-time = "2026-08-27T15:17:43.318Z" },
+    { url = "https://files.pythonhosted.org/packages/0b/f3/8e0cf04f175e9b608056a7267f2f9347d94b40f00965492f23a873b58d80/py_opensdbrussels2026-0.1.1-py3-none-any.whl", hash = "sha256:35d0682a5fd80bb7d1ff2655b26a7275a967b17c8f5c50a831a2d555bc9ec2d9", size = 3700, upload-time = "2026-09-07T06:10:47.401Z" },
 ]
 
 [[package]]
