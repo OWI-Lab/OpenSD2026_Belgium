@@ -1,16 +1,19 @@
 {
   "name": "OpenSD2026 Workshop",
-
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
-
   "postCreateCommand": "pip install uv && uv sync",
-
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-python.python",
         "ms-toolsai.jupyter"
-      ]
+      ],
+      "settings": {
+        "github.copilot.enable": {
+          "*": false
+        },
+        "github.copilot.chat.enabled": false
+      }
     }
   }
 }
